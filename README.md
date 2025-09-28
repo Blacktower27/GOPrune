@@ -1,6 +1,6 @@
 # GOPrune
 
-GOPrune is a **temporary** repository for an efficient visual token pruning module for Vision-Language Models (VLMs).    
+GOPrune is a **temporary** repository for an efficient visual token pruning method for Vision-Language Models (VLMs).    
 It can be applied during **inference** to reduce inference time while allowing flexible control over the number of retained visual tokens, all while maintaining model performance.
 
 ---
