@@ -1,0 +1,6 @@
+README.md
+setup.py
+goprune.egg-info/PKG-INFO
+goprune.egg-info/SOURCES.txt
+goprune.egg-info/dependency_links.txt
+goprune.egg-info/top_level.txt
