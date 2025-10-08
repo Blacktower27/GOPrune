@@ -12,7 +12,7 @@
 Clone this repository and install:
 
 ```bash
-git clone https://github.com/Blacktower27/GOPrune.git
+git clone https://github.com/Blacktower27/HIVTP.git
 cd GOPrune
 
 pip install -e .
@@ -20,7 +20,7 @@ pip install -e .
 
 ## Usage with lmms-eval
 
-First, follow the official [lmms-eval installation guide](https://github.com/EvolvingLMMs-Lab/lmms-eval) to set up the environment. To integrate **GOPrune** into lmms-eval with LLaVA, you need to modify the `class Llava(lmms)` inside `lmms_eval/models/simple/llava.py`. Specifically, in the `__init__` function after loading the pretrained model, we insert the following code:
+First, follow the official [lmms-eval installation guide](https://github.com/EvolvingLMMs-Lab/lmms-eval) to set up the environment. To integrate **HIVTP** into lmms-eval with LLaVA, you need to modify the `class Llava(lmms)` inside `lmms_eval/models/simple/llava.py`. Specifically, in the `__init__` function after loading the pretrained model, we insert the following code:
 
 ```python
 try:
