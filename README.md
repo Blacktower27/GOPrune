@@ -1,4 +1,4 @@
-# GOPrune
+# HIVTP: A Training-Free Method to Improve VLMs Efficiency via Hierarchical Visual Token Pruning Using Middle-Layer-Based Importance Score
 
 GOPrune is a **temporary** repository for an efficient visual token pruning method for Vision-Language Models (VLMs).    
 It can be applied during **inference** to reduce inference time while allowing flexible control over the number of retained visual tokens, all while maintaining model performance.
