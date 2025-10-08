@@ -44,4 +44,16 @@ After this modification, you can test our method on LLaVA using lmms-eval’s pr
 bash examples/models/llava_next.sh
 ```
 If you want to change the dataset, please directly modify this bash script in lmms-eval.
+## Cite us
+```bash
+@misc{xu2025hivtptrainingfreemethodimprove,
+      title={HIVTP: A Training-Free Method to Improve VLMs Efficiency via Hierarchical Visual Token Pruning Using Middle-Layer-Based Importance Score}, 
+      author={Jingqi Xu and Jingxi Lu and Chenghao Li and Sreetama Sarkar and Peter A. Beerel},
+      year={2025},
+      eprint={2509.23663},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.23663}, 
+}
+```
 
