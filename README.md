@@ -2,6 +2,7 @@
 1. Our HIVTP demonstrates superiority over prior training-free methods in improving VLMs' inference efficiency while preserving accuracy.
 2. HIVTP can reduce the time-to-first token (TTFT) of LLaVA-v1.5-7B and LLaVA-Next-7B by up to 50.0% and 55.1%, respectively, and improve the token generation throughput by up to 60.9% and 47.3%, without sacrificing accuracy, and even achieving improvements on certain benchmarks.
 3. The local retaining stage in HIVTP helps mitigate hallucinations in VLMs by reducing visual uncertainty.
+4. [paper link](https://arxiv.org/abs/2509.23663)
 ## Overview
 ![Overview of HIVTP](Framework.png)
 ---
