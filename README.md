@@ -1,7 +1,7 @@
 # HIVTP: A Training-Free Method to Improve VLMs Efficiency via Hierarchical Visual Token Pruning Using Middle-Layer-Based Importance Score
-
-GOPrune is a **temporary** repository for an efficient visual token pruning method for Vision-Language Models (VLMs).    
-It can be applied during **inference** to reduce inference time while allowing flexible control over the number of retained visual tokens, all while maintaining model performance.
+1. Our HIVTP demonstrates superiority over prior training-free methods in improving VLMs' inference efficiency while preserving accuracy.
+2. HIVTP can reduce the time-to-first token (TTFT) of LLaVA-v1.5-7B and LLaVA-Next-7B by up to 50.0% and 55.1%, respectively, and improve the token generation throughput by up to 60.9% and 47.3%, without sacrificing accuracy, and even achieving improvements on certain benchmarks.
+3. The local retaining stage in HIVTP helps mitigate hallucinations in VLMs by reducing visual uncertainty.
 ## Overview
 ![Overview of HIVTP](Framework.png)
 ---
